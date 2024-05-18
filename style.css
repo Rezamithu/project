@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*code for navbar*/
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li {
+    margin-right: 20px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home, #about, #contact {
+    padding: 2em;
+}
+
+/*front page*/
+.con {
+    color: gray;
+    max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*about page*/
+#about{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    background:#FFFDD0;
+    padding: 25px 25px 25px 25px;
+    border: 10px dashed gray;
+}
+
+/*grade calculator*/
+h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/*contact page*/
+
+.cms {
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 100px auto;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#registration-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registration-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="password"],
+#registration-form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#show{
+    text-align: center;
+}
